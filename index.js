@@ -152,7 +152,7 @@ app.get(API_URL + "/obtener/:id", (req, res) => {
  *                 message:
  *                   type: string
  */
-app.post(API_URL + "/crear",  (req, res) => {
+app.post(API_URL + "/guardar",  (req, res) => {
     const producto = req.body;
     PRODUCTOS.push(
         {
